@@ -3,7 +3,7 @@
 // Problem 1: Count to 10
 
 for (let i = 0; i < 10; i++) {
-  console.log(i + 1);
+  console.log("count to", i + 1);
 }
 
 // Problem 2: Even Numbers
