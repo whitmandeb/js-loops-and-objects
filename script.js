@@ -34,7 +34,6 @@ colors = tempList;
 console.log(colors);
 
 // Part 2: Objects
-
 // Problem 5: Simple Object
 
 const person = {
@@ -42,9 +41,6 @@ const person = {
   age: "50",
   favColor: "red",
 };
-
-// Problem 6: Modify an Object
-
 console.log(
   "My name is " +
     person.name +
@@ -54,6 +50,8 @@ console.log(
     person.favColor +
     "."
 );
+
+// Problem 6: Modify an Object
 person.hobby = "talking with friends";
 console.log("One of my hobbies is " + person.hobby + ".");
 
