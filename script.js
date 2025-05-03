@@ -15,12 +15,14 @@ for (let i = 0; i < 21; i += 2) {
 // Problem 3: Loop through an Array
 
 let animals = ["dog", "cat", "rabbit", "parrot"];
+console.log;
 for (let i = 0; i < animals.length; i++) {
   console.log("I like", animals[i]);
 }
 
 // Problem 4: Reverse Array Output
 
+console.log("colors in reverse");
 let colors = ["red", "green", "blue", "yellow"];
 let tempList = [];
 console.log(colors);
